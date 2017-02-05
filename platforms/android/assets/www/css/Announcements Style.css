@@ -1,0 +1,331 @@
+/* description */
+
+#description {
+    width: 94vw;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10vh;
+    left: 3vw;
+    font-size: 5vw;
+}
+
+#descriptionTitle {
+    display: table-cell;
+    vertical-align: middle;
+    color: #c8c8c8;
+    padding: 1vh 2vw;
+    width: 94vw;
+    height: 4vh;
+    background-color: rgba(0,0,0,.6);
+}
+
+#descriptionContent {
+    font-size: 3vh;
+    width: 90vw;
+    height: 70vh;
+    overflow-y: scroll;
+    background-color: rgba(255,255,255,.3);
+    padding: 1vh 2vw;
+}
+/* description */
+
+/* title box */
+
+.titleBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    display: table;
+    font-family: sans-serif;
+    background-color: rgba(255,255,255,.4);
+    color: rgba(0, 0, 0, .7);
+    text-align: center;
+}
+
+#backBox, #rightBox {
+    display: table-cell;
+    vertical-align: bottom;
+    width: 15vw;
+}
+
+#innerSpan {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.announcementDates {
+    font-size: 3vh;
+    padding: 1.5vh 0 0 0;
+}
+
+#announcementTitle {
+    width: 100vw;
+    position: absolute;
+    top: 2vh;
+    left: 0;
+    height: 10vh;
+    background-color: rgba(255,255,255,.4);
+    display: table;
+}
+#announcementTitle div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 8vw;
+    color: rgba(0, 0, 0, .5);
+}
+/* title box */
+
+/* search box */
+.choices {
+    display: table;
+    width: 100vw;
+    height: 15vh;
+    color: rgba(0,0,0,.6);
+    border-top: solid 3px rgba(0,0,0,.3);
+    background-color: rgba(255,255,255,.3);
+    -webkit-transition: background-color .2s;
+    -moz-transition: background-color .2s;
+    -ms-transition: background-color .2s;
+    -o-transition: background-color .2s;
+    transition: background-color .2s;
+}
+
+input[type="search"] {
+    width: 92vw;
+    font-size: 24px;
+}
+
+.choices div, #searchBox {
+    display: table-cell;
+    margin-top: 1vh;
+    vertical-align: middle;
+    padding-left: 2vw;
+    font-size: 6.5vw;
+}
+/* end search box */
+
+.text {
+    padding: 0 0 1.5vh 0;
+    font-size: 4.5vw;
+}
+
+.chooseDate {
+    z-index: 1;
+    display: block;
+    position: absolute;
+    left:50%;
+    top: 55vh;
+    margin-left:-12.65vh;
+    width: 25.3vh;
+    height: 25.3vh;
+    font-size: 5vh;
+    font-family: sans-serif;
+    color: rgba(0,0,0,.5);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    text-align: center;
+}
+
+.circlechoice {
+    z-index: 1;
+    display: block;
+    position: absolute;
+    left:50%;
+    top: 31vh;
+    margin-left:-12.65vh;
+    background-color: rgba(255,255,255,.2);
+    width: 25.3vh;
+    height: 25.3vh;
+    font-size: 14.055vh;
+    border-radius: 100%;
+    color: rgba(0,0,0,.5);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    text-align: center;
+}
+
+.circlechoice.moveUp {
+    border-radius: 0;
+    width: 100vw;
+    left: 0;
+    margin-left: 0;
+    font-size: 7.8vh;
+    height: 10.8vh;
+    top: 0;
+    text-align: right;
+}
+
+#clock {
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+.circlechoice i {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    padding-top: 5.8vh;
+
+}
+
+.circlechoice i.moveRight {
+    padding-top: 2.5vh;
+    padding-right: 1vh;
+    color: rgba(0, 0, 0, .4);
+}
+
+#formattedDate {
+    width: 100vw;
+    height: 13vh;
+    position: absolute;
+    left: 3vh;
+    top: 3vh;
+    color: rgba(0, 0, 0, .6);
+    font-family: sans-serif;
+    background: none;
+    border: none;
+    font-size: 6.7vh;
+    -webkit-transition: all 1s, left .5s ease-in-out;
+    -moz-transition: all 1s, left .5s ease-in-out;
+    -ms-transition: all 1s, left .5s ease-in-out;
+    -o-transition: all 1s, left .5s ease-in-out;
+    transition: all 1s, left .5s ease-in-out;
+    letter-spacing: .7vw;
+}
+
+#chosendate {
+    display: none;
+}
+
+
+#formattedDate.moveLeft {
+    left: -100vw;
+}
+
+#chosendate::-webkit-search-cancel-button {
+    display: none;
+}
+
+
+#header:hover {
+    background-color: rgba(255,255,255,.7);
+}
+
+.date span {
+    display: block;
+    padding-top: 3.5vh;
+}
+
+#middle {
+    top: 10.8vh;
+    overflow-x: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+.announcements {
+    display: table;
+    height: 12vh;
+    margin-left: 2vw;
+    text-decoration: underline;
+    color: rgba(0,0,0,.5);
+    font-family: sans-serif;
+    background-color: rgba(255,255,255,.3);
+    width: 100vw;
+    -webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    transition: background-color .3s;
+}
+
+#announcements a {
+    display: table;
+    height: 12vh;
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+    font-family: sans-serif;
+    background-color: rgba(255,255,255,.3);
+    border-top: solid .3vh rgba(0,0,0,.2);
+    width: 100vw;
+    -webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    transition: background-color .3s;
+}
+
+#announcements a div {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 2vw;
+    font-size: 6.5vw;
+}
+
+#ineedthis a div i {
+    float: right;
+    padding-right: 2vw;
+    color: rgba(0,0,0,.2);
+}
+
+#top1, #top2, #top3 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    -webkit-transition: left .5s ease-in-out;
+    -moz-transition: left .5s ease-in-out;
+    -ms-transition: left .5s ease-in-out;
+    -o-transition: left .5s ease-in-out;
+    transition: left .5s ease-in-out;
+
+}
+
+#moreChoices {
+    overflow-y: scroll;
+    position: absolute;
+    top: 10vh;
+    left: 0vw;
+    height: 78vh;
+}
+
+#top1.enter {
+    left: 0;
+}
+
+#top1.exit {
+    left: -100vw;
+}
+
+#top2.exitRight {
+    left: 100vw;
+}
+
+#top2.enter {
+    left: 0;
+}
+
+#top2.exitLeft {
+    left: -100vw;
+}
+
+#top3.exitRight {
+    left: 100vw;
+}
+
+#top3.enter {
+    left: 0;
+}

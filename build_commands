@@ -1,0 +1,4 @@
+cordova build android --release --buildConfig build_android.json
+cordova build ios --release --device --buildConfig build_ios.json
+
+android key pw: kierst

@@ -1,0 +1,18 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "keys.keystore",
+            "storePassword": "kierst",
+            "alias": "schonnect",
+            "password": "kierst",
+            "keystoreType": ""
+        },
+        "release": {
+            "keystore": "keys.keystore",
+            "storePassword": "kierst",
+            "alias": "schonnect",
+            "password": "kierst",
+            "keystoreType": ""
+        }
+    }
+}

@@ -1,0 +1,36 @@
+#header2 {
+    position: absolute;
+    display: table;
+    font-family: sans-serif;
+    background-color: rgba(255,255,255,.4);
+    color: rgba(0, 0, 0, .7);
+    height: 10.8vh;
+    width: 100vw;
+    -webkit-transition: background-color .2s;
+    -moz-transition: background-color .2s;
+    -o-transition: background-color .2s;
+    transition: background-color .2s;
+    text-align: center;
+}
+
+#header2 span {
+    padding: 2vh 14vw 1vh 2vw;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#middle2 {
+    top: 10.8vh;
+    font-family: sans-serif;
+    background: rgba(255,255,255,.2);
+    color: rgba(0,0,0,.7);
+    overflow-y: scroll;
+    position: relative;
+    height: 77vh;
+    width: 100vw;
+}
+
+#ineedthis2 {
+    padding: 4vw;
+    width: 90vw;
+}

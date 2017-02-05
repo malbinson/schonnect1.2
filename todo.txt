@@ -1,0 +1,4 @@
+bug fix list
+
+x. Not getting data error
+2. App icon on IOS notify
